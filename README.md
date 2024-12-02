@@ -13,12 +13,18 @@ Comprehensive testing suite using pytest.
 
 ##Installation Requirements
 
-####Prerequisites
+#Prerequisites
+
 Python 3.11 
+
 Django 5.1.3 
+
 Django REST Framework
+
 Djangorestframework-simplejwt
+
 PostgreSQL
+
 Postman
 
 ##Steps to Set Up the Project
