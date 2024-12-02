@@ -13,7 +13,7 @@ Comprehensive testing suite using pytest.
 
 ##Installation Requirements
 
-### Prerequisites
+####Prerequisites
 Python 3.11 
 Django 5.1.3 
 Django REST Framework
@@ -59,20 +59,35 @@ python manage.py runserver
   http://127.0.0.1:8000/
 
    "actors": "http://127.0.0.1:8000/actors/",
-    "address": "http://127.0.0.1:8000/address/",
-    "category": "http://127.0.0.1:8000/category/",
-    "city": "http://127.0.0.1:8000/city/",
-    "country": "http://127.0.0.1:8000/country/",
-    "customer": "http://127.0.0.1:8000/customer/",
-    "films": "http://127.0.0.1:8000/films/",
-    "filmactor": "http://127.0.0.1:8000/filmactor/",
-    "fcategory": "http://127.0.0.1:8000/fcategory/",
-    "inventory": "http://127.0.0.1:8000/inventory/",
-    "language": "http://127.0.0.1:8000/language/",
-    "payment": "http://127.0.0.1:8000/payment/",
-    "rental": "http://127.0.0.1:8000/rental/",
-    "staff": "http://127.0.0.1:8000/staff/",
-    "store": "http://127.0.0.1:8000/store/"
+   
+  "address": "http://127.0.0.1:8000/address/",
+    
+  "category": "http://127.0.0.1:8000/category/",
+    
+  "city": "http://127.0.0.1:8000/city/",
+  
+  "country": "http://127.0.0.1:8000/country/",
+  
+  "customer": "http://127.0.0.1:8000/customer/",
+  
+   "films": "http://127.0.0.1:8000/films/",
+   
+  "filmactor": "http://127.0.0.1:8000/filmactor/",
+    
+  "fcategory": "http://127.0.0.1:8000/fcategory/",
+    
+  "inventory": "http://127.0.0.1:8000/inventory/",
+    
+  "language": "http://127.0.0.1:8000/language/",
+    
+  "payment": "http://127.0.0.1:8000/payment/",
+    
+  "rental": "http://127.0.0.1:8000/rental/",
+    
+  "staff": "http://127.0.0.1:8000/staff/",
+    
+  "store": "http://127.0.0.1:8000/store/"
+    
 
 ##Get the list of actors by following below steps in  Postman:
 
@@ -80,7 +95,7 @@ python manage.py runserver
   
   URL: http://127.0.0.1:8000/actors/
   
-  Method: GET / POST / DELETE
+  Method: GET / POST / DELETE / PUT
   
   Authentication: Bearer Token : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.
                                  eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzMzMTc3MTY3LCJpYXQiOjE3MzI4NzcxNjcsImp0aSI6Ijc1YWE1NzdhNWMyYzQ1NDY4NDgzM2I5ODVlMzkyYzRmIiwidXNlcl9pZCI6Mn0.
