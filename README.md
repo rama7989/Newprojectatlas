@@ -25,30 +25,32 @@ Postman
 ### 1.Clone the Repository:
 
 git clone https://github.com/rama7989/Newprojectatlas.git
+
 cd Newprojectatlas
 
-###2. Create a Virtual Environment:
+2. Create a Virtual Environment:
 
 python -m venv venv
+
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 
-###3.Install Dependencies:
+3.Install Dependencies:
 
 pip install -r requirements.txt
 
-###4.Configure the Database: 
+4.Configure the Database: 
 
 Update the DATABASES setting in settings.py to match your database configuration.In this project we used Postgresql
 
-###5.Run Migrations:
+5.Run Migrations:
 
 python manage.py migrate
 
-###6. Create a Superuser:
+6. Create a Superuser:
 
 python manage.py createsuperuser
 
-###7.Run the Development Server:
+7.Run the Development Server:
 
 python manage.py runserver
 
@@ -72,13 +74,16 @@ python manage.py runserver
     "staff": "http://127.0.0.1:8000/staff/",
     "store": "http://127.0.0.1:8000/store/"
 
-###Get the list of actors by following below steps in  Postman:
+##Get the list of actors by following below steps in  Postman:
 
   #### List Actors
   
   URL: http://127.0.0.1:8000/actors/
+  
   Method: GET / POST / DELETE
+  
   Authentication: Bearer Token : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.
                                  eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzMzMTc3MTY3LCJpYXQiOjE3MzI4NzcxNjcsImp0aSI6Ijc1YWE1NzdhNWMyYzQ1NDY4NDgzM2I5ODVlMzkyYzRmIiwidXNlcl9pZCI6Mn0.
                                  TEoUkVZfvve4-uvE-p1KvTmy6G5qb4Cakc_iWta2D9k
+                                 
 We can follow same steps for every models to perform GET,POST,PUT and DELETE operations
